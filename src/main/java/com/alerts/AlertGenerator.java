@@ -3,6 +3,7 @@ package com.alerts;
 import com.data_management.DataStorage;
 import com.data_management.Patient;
 
+
 /**
  * The {@code AlertGenerator} class is responsible for monitoring patient data
  * and generating alerts when certain predefined conditions are met. This class
@@ -27,16 +28,19 @@ public class AlertGenerator {
     /**
      * Evaluates the specified patient's data to determine if any alert conditions
      * are met. If a condition is met, an alert is triggered via the
-     * {@link #triggerAlert}
+     * {@link #triggerAlert(Alert)} 
      * method. This method should define the specific conditions under which an
      * alert
      * will be triggered.
      *
      * @param patient the patient data to evaluate for alert conditions
      */
+
+    //correction: updated the javadoc link to include the method parameter
     public void evaluateData(Patient patient) {
-        // Implementation goes here
-    }
+        // TODO: Add logic to evaluate patient data and trigger alerts if conditions are met
+        // correction: Placeholders should clearly explain the missing behavior
+        }
 
     /**
      * Triggers an alert for the monitoring system. This method can be extended to
@@ -47,6 +51,7 @@ public class AlertGenerator {
      * @param alert the alert object containing details about the alert condition
      */
     private void triggerAlert(Alert alert) {
-        // Implementation might involve logging the alert or notifying staff
+       // TODO: Add logic to log the alert or notify notify medical staff
+      // correction: Placeholders should clearly explain the missing behavior
     }
 }
